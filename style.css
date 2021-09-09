@@ -261,9 +261,7 @@ ol{
   grid-template-rows:minmax(auto, <flex>);
 }*/
 .dropmenu{
-display:flex;
-flex-flow:row wrap;
-justify-content:space-evenly;
+display:block;
 border:none;
 border:1px;
 margin:1px;
@@ -274,9 +272,7 @@ text-shadow:0px -1px rgba(0, 0, 0, .2);
 width:auto;
 }
 .dropmenu ul{
-display:flex;
-flex-flow:row wrap;
-justify-content:space-evenly;
+display:block;
 text-shadow:0px -1px rgba(0, 0, 0, .2);
 background:transparent;
 height:50px;
