@@ -262,13 +262,12 @@ margin:1px;
 padding:1px;
 font-family:"Amatic SC", cursive;
 font-size:20px;
-text-shadow:0px -2px rgba(0, 0, 0, .2);
+text-shadow:0px -1px rgba(0, 0, 0, .2);
 width:1064px;
 }
 .dropmenu ul{
 display:block;
-text-shadow:0px -2px rgba(0, 0, 0, .2);
-background:rgba(255, 255, 255, .3);
+text-shadow:0px -1px rgba(0, 0, 0, .2);
 height:50px;
 list-style:none;
 margin:0;
@@ -283,7 +282,7 @@ padding:0px;
 display:block;
 background:cornflowerblue;
 color:#fff;
-text-shadow:0px -2px rgba(0, 0, 0, .2);
+text-shadow:0px -1px rgba(0, 0, 0, .2);
 display:block;
 line-height:50px;
 margin:0px;
@@ -294,7 +293,7 @@ text-decoration:none;
 .dropmenu li a:hover, .dropmenu ul li:hover a{
 display:block;
 background:rgba(31, 31, 31, .5);
-text-shadow:0px -2px rgba(0, 0, 0, .2);
+text-shadow:0px -1px rgba(0, 0, 0, .2);
 color:#FFFFFF;
 text-decoration:none;
 }
@@ -330,7 +329,7 @@ background:none;
 display:block;
 height:50px;
 font-size:18px;
-text-shadow:0px -2px rgba(0, 0, 0, .2);
+text-shadow:0px -1px rgba(0, 0, 0, .2);
 margin:0px;
 padding:0px 0px 0px 10px;
 text-align:left;
