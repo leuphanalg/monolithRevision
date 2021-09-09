@@ -103,7 +103,7 @@ div{
   width:windowWidth;
   height:windowHeight;
   content:"Monolith for Leuphana";
-  background:url("image/monolith2.jpg");
+  background:url("monolith2.jpg");
   position:absolute;
   top:0;
   left:0;
@@ -329,6 +329,7 @@ clear:left;
   content:'\e803';
   font-family:fontello;
 }
+
 /*treePractice*/
 /*.tree, .tree ul{
   list-style:none;
@@ -366,6 +367,7 @@ clear:left;
   font-family:fontello;
 }*/
 /*treePractice Ends*/
+
 /*parallaxScrolling*/
 .container {
       margin:0;
@@ -419,6 +421,7 @@ clear:left;
     font-weight:bolder;
   }
 /*parallaxScrolling Ends*/
+
 /*MasonryColumn*/
 .columns {
   /*column-count:4;*/
@@ -463,7 +466,11 @@ clear:left;
   margin-top:11px;
 }
 /*masonryColumn Ends*/
+
+/*CKEditor*/
 #editor{
 backgroundColor:white;
 }
+/*CKEditor Ends*/
+
 /*monolithTemplate Ends*/
