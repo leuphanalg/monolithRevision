@@ -241,7 +241,7 @@ ol{
 
 #mainmenu ul{
   display:grid;
-  grid-template-rows:auto;
+  grid-template-rows:minmax(auto, <flex>);
 }
 
 .dropmenu{
