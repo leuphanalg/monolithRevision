@@ -221,7 +221,8 @@ ul{
 ol{
   border-right:1px solid cornflowerblue;
   padding-right:15px;
-}
+}*/
+
 #grid{
   display:grid;
   grid-template-columns:150px 1fr;
@@ -231,7 +232,7 @@ ol{
 }
 #grid #article{
   grid-template-rows:minmax(auto, <flex>);
-}*/
+}
 
 /*javaScript*/
 /*$(function(){
