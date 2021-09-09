@@ -262,6 +262,8 @@ ol{
 }*/
 .dropmenu{
 display:flex;
+flex-flow:row wrap;
+justify-content:space-evenly;
 border:none;
 border:1px;
 margin:1px;
