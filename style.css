@@ -259,7 +259,7 @@ ol{
 /*#mainmenu {
   display:grid;
   grid-template-rows:minmax(auto, <flex>);
-}*/
+}
 .dropmenu{
 display:block;
 border:none;
@@ -319,8 +319,8 @@ border:0px;
 position:absolute;
 width:300px;
 z-index:200;
-/*top:1em;*/
-/*left:0;*/
+/*top:1em;
+/*left:0;
 }
 .dropmenu li:hover ul{
 display:flex;
@@ -335,7 +335,7 @@ background:skyblue;
 float:none;
 margin:0px;
 padding:0px;
-/*width:270px;*/
+/*width:270px;
 }
 .dropmenu li:hover li a{
 display:flex;
@@ -369,9 +369,8 @@ flex flow:column wrap;
 justify-content:space-evenly;
 clear:left;
 }
+*/
 
-/*test*/
-/*
 .dropmenu{
 display:block;
 border:none;
@@ -424,8 +423,8 @@ border:0px;
 position:absolute;
 width:292px;
 z-index:200;
-/*top:1em;
-/*left:0;
+/*top:1em;*/
+/*left:0;*/
 }
 .dropmenu li:hover ul{
 display:block;
@@ -437,7 +436,7 @@ display:block;
 float:none;
 margin:0px;
 padding:0px;
-/*width:270px;
+/*width:270px;*/
 }
 .dropmenu li:hover li a{
 display:block;
@@ -463,11 +462,6 @@ text-decoration:none;
 display:block;
 clear:left;
 }
-.blackboard:before{
-  content:'\e803';
-  font-family:fontello;
-}
-*/
 
 /*treePractice*/
 /*
