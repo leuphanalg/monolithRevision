@@ -239,10 +239,10 @@ ol{
   });
 });*/
 
-#mainmenu ul{
+/*#mainmenu ul{
   display:grid;
   grid-template-rows:minmax(auto, <flex>);
-}
+}*/
 
 .dropmenu{
 display:block;
