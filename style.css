@@ -224,13 +224,13 @@ ol{
 
 #grid{
   display:grid;
-  grid-template-columns:150px 1fr;
+  grid-template-rows:150px 1fr;
 }
 #grid ol{
-  grid-template-rows:minmax(auto, <flex>);
+  grid-template-columns:minmax(auto, <flex>);
 }
 #grid #article{
-  grid-template-rows:minmax(auto, <flex>);
+  grid-template-columns:minmax(auto, <flex>);
 }
 
 /*javaScript*/
