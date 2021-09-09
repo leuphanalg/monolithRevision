@@ -247,7 +247,7 @@ ol{
 }*/
 
 .dropmenu{
-display:flex;
+display:block;
 border:none;
 border:1px;
 margin:1px;
