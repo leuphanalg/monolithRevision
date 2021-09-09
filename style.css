@@ -224,7 +224,8 @@ ol{
 
 #grid{
   display:grid;
-  grid-template-rows:150px 1fr;
+  grid-template-rows:minmax(auto, <flex>);
+  /*150px 1fr;*/
 }
 #grid ol{
   grid-template-columns:minmax(auto, <flex>);
@@ -246,9 +247,7 @@ ol{
 }*/
 
 .dropmenu{
-display:flex;
-flex-flow:row wrap;
-justify-content:space-evenly;
+display:block;
 border:none;
 border:1px;
 margin:1px;
