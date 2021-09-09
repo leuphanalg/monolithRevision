@@ -207,7 +207,10 @@ h2{
   margin:0;
   padding:5px;
   border-bottom:1px solid cornflowerblue;
+  border-bottom-width:100%;
 }
+
+/*test*/
 /*ul{
   border-right:1px solid cornflowerblue;
   width:250px;
@@ -218,6 +221,7 @@ ol{
   border-right:1px solid cornflowerblue;
   padding-right:15px;
 }*/
+
 #grid{
   display:grid;
   grid-template-columns:150px 1fr;
@@ -228,11 +232,14 @@ ol{
 #grid #article{
   padding-left:45px;
 }
+
+/*javaScript*/
 /*$(function(){
   $(".dropmenu").click(function(){
     $(".dropmenu").stop().slideToggle("fast");
   });
 });*/
+
 .dropmenu{
 display:block;
 border:none;
@@ -262,12 +269,12 @@ padding:0px;
 .dropmenu li a{
 display:block;
 background:cornflowerblue;
-color:#fff;
+color:#FFFFFF;
 text-shadow:0px -1px rgba(0, 0, 0, .2);
 display:block;
 line-height:50px;
 margin:0px;
-padding:0px 105px 0px 104.5px;
+padding:auto;
 text-align:center;
 text-decoration:none;
 }
