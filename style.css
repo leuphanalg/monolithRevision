@@ -226,10 +226,12 @@ ol{
   grid-template-columns:150px 1fr;
 }
 #grid ol{
-  padding-left:33px;
+  grid-template-rows:minmax(auto, <flex>);
+  padding-left:
 }
 #grid #article{
-  padding-left:45px;
+  grid-template-rows:minmax(auto, <flex>);
+  padding-left:
 }
 
 /*javaScript*/
