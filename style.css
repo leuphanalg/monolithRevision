@@ -224,7 +224,7 @@ ol{
 
 #grid{
   display:grid;
-  grid-template-columns:minmax(auto, <flex>);
+  grid-template-rows:minmax(auto, <flex>);
   /*150px 1fr;*/
 }
 #grid ol{
