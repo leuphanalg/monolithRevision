@@ -211,7 +211,7 @@ h2{
 }
 
 /*test*/
-/*ul{
+ul{
   border-right:1px solid cornflowerblue;
   width:250px;
   margin:0;
@@ -230,7 +230,7 @@ ol{
 }
 #grid #article{
   padding-left:45px;
-}*/
+}
 
 /*javaScript*/
 /*$(function(){
