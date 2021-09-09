@@ -234,7 +234,6 @@ ol{
 #grid{
   display:grid;
   grid-template-rows:minmax(auto, <flex>);
-  150px 1fr;
 }
 #grid ol{
   grid-template-columns:minmax(auto, <flex>);
