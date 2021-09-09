@@ -225,13 +225,11 @@ ol{
   display:grid;
   grid-template-columns:150px 1fr;
 }
-#grid ol{
+#grid li, ul, ol{
   grid-template-rows:minmax(auto, <flex>);
-  padding-left:
 }
 #grid #article{
   grid-template-rows:minmax(auto, <flex>);
-  padding-left:
 }
 
 /*javaScript*/
