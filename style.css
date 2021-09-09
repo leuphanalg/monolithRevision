@@ -225,7 +225,7 @@ ol{
   display:grid;
   grid-template-columns:150px 1fr;
 }
-#grid li, ul, ol{
+#grid ol{
   grid-template-rows:minmax(auto, <flex>);
 }
 #grid #article{
