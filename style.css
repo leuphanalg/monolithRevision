@@ -211,7 +211,7 @@ h2{
 }
 
 /*test*/
-/*treePractice
+
 ul{
   border-right:1px solid cornflowerblue;
   width:250px;
@@ -221,7 +221,7 @@ ul{
 ol{
   border-right:1px solid cornflowerblue;
   padding-right:15px;
-}*/
+}
 
 #grid{
   display:grid;
