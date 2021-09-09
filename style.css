@@ -241,13 +241,13 @@ ol{
   });
 });*/
 
-#mainmenu {
+/*#mainmenu {
   display:grid;
   grid-template-rows:minmax(auto, <flex>);
-}
+}*/
 
 .dropmenu{
-display:block;
+display:flex;
 border:none;
 border:1px;
 margin:1px;
