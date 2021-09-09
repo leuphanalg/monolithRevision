@@ -221,18 +221,27 @@ ol{
   border-right:1px solid cornflowerblue;
   padding-right:15px;
 }*/
-
 #grid{
   display:grid;
+  grid-template-columns:150px 1fr;
+}
+#grid ol{
+  padding-left:33px;
+}
+#grid #article{
+  padding-left:45px;
+}
+/*#grid{
+  display:grid;
   grid-template-rows:minmax(auto, <flex>);
-  /*150px 1fr;*/
+  150px 1fr;
 }
 #grid ol{
   grid-template-columns:minmax(auto, <flex>);
 }
 #grid #article{
   grid-template-columns:minmax(auto, <flex>);
-}
+}*/
 
 /*javaScript*/
 /*$(function(){
