@@ -242,6 +242,7 @@ ol{
 #mainmenu dropmenu{
   display:grid;
   grid-template-rows:auto;
+  width:100%;
 }
 
 .dropmenu{
