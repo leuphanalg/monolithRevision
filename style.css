@@ -284,7 +284,7 @@ display:none;
 height:auto;
 border:0px;
 position:absolute;
-width:auto;
+width:100%;
 z-index:200;
 /*top:1em;
 /*left:0;*/
