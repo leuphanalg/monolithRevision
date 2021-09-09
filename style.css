@@ -306,9 +306,7 @@ text-align:center;
 text-decoration:none;
 }
 .dropmenu li a:hover, .dropmenu ul li:hover a{
-display:flex;
-flex-flow:row wrap;
-justify-content:space-evenly;
+display:block;
 background:rgba(31, 31, 31, .5);
 text-shadow:0px -1px rgba(0, 0, 0, .2);
 color:#FFFFFF;
