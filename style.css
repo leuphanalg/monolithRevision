@@ -254,7 +254,104 @@ ol{
   display:grid;
   grid-template-rows:minmax(auto, <flex>);
 }*/
+.dropmenu{
+display:block;
+border:none;
+border:1px;
+margin:1px;
+padding:1px;
+font-family:"Amatic SC", cursive;
+font-size:20px;
+text-shadow:0px -2px rgba(0, 0, 0, .2);
+width:1064px;
+}
+.dropmenu ul{
+display:block;
+text-shadow:0px -2px rgba(0, 0, 0, .2);
+background:rgba(255, 255, 255, .3);
+height:50px;
+list-style:none;
+margin:0;
+padding:0;
+}
+.dropmenu li{
+display:block;
+float:left;
+padding:0px;
+}
+.dropmenu li a{
+display:block;
+background:cornflowerblue;
+color:#fff;
+text-shadow:0px -2px rgba(0, 0, 0, .2);
+display:block;
+line-height:50px;
+margin:0px;
+padding:0px 105px 0px 104.5px;
+text-align:center;
+text-decoration:none;
+}
+.dropmenu li a:hover, .dropmenu ul li:hover a{
+display:block;
+background:rgba(31, 31, 31, .5);
+text-shadow:0px -2px rgba(0, 0, 0, .2);
+color:#FFFFFF;
+text-decoration:none;
+}
+.dropmenu li ul{
+display:block;
+background:skyblue;
+display:none;
+height:auto;
+border:0px;
+position:absolute;
+width:292px;
+z-index:200;
+/*top:1em;
+/*left:0;*/
+}
+.dropmenu li:hover ul{
+display:block;
+}
+.dropmenu li li {
+display:block;
+background:skyblue;
+display:block;
+float:none;
+margin:0px;
+padding:0px;
+/*width:270px;*/
+}
+.dropmenu li:hover li a{
+display:block;
+background:none;
+}
+.dropmenu li ul a{
+display:block;
+height:50px;
+font-size:18px;
+text-shadow:0px -2px rgba(0, 0, 0, .2);
+margin:0px;
+padding:0px 0px 0px 10px;
+text-align:left;
+}
+.dropmenu li ul a:hover, .dropmenu li ul li:hover a{
+display:block;
+background:rgba(171, 171, 171, .3);
+border:0px;
+color:gray;
+text-decoration:none;
+}
+.dropmenu p{
+display:block;
+clear:left;
+}
+.blackboard:before{
+  content:'\e803';
+  font-family:fontello;
+}
 
+/*
 .dropmenu{
 display:flex;
 border:none;
@@ -319,7 +416,7 @@ position:absolute;
 width:300px;
 z-index:200;
 /*top:1em;
-/*left:0;*/
+/*left:0;
 }
 .dropmenu li:hover ul{
 display:block;
@@ -334,7 +431,7 @@ background:skyblue;
 float:none;
 margin:0px;
 padding:0px;
-/*width:270px;*/
+/*width:270px;
 }
 .dropmenu li:hover li a{
 display:block;
@@ -367,7 +464,7 @@ display:block;
 flex flow:column wrap;
 justify-content:space-evenly;
 clear:left;
-}
+}*/
 
 /*test
 .blackboard:before{
