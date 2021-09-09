@@ -239,9 +239,9 @@ ol{
   });
 });*/
 
-#mainmenu{
+#mainmenu li{
   display:grid;
-  grid-template-columns:auto;
+  grid-template-rows:auto;
 }
 
 .dropmenu{
