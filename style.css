@@ -286,14 +286,14 @@ padding:0;
 width:300px;
 }
 .dropmenu li{
-display:block;
+display:flex;
 flex-flow:row wrap;
 justify-content:space-evenly;
 float:left;
 padding:0px;
 }
 .dropmenu li a{
-display:block;
+display:flex;
 flex-flow:row wrap;
 justify-content:space-evenly;
 background:cornflowerblue;
@@ -306,7 +306,7 @@ text-align:center;
 text-decoration:none;
 }
 .dropmenu li a:hover, .dropmenu ul li:hover a{
-display:block;
+display:flex;
 flex-flow:column wrap;
 justify-content:space-evenly;
 background:rgba(31, 31, 31, .5);
@@ -315,7 +315,7 @@ color:#FFFFFF;
 text-decoration:none;
 }
 .dropmenu li ul{
-display:block;
+display:flex;
 flex-flow:column wrap;
 justify-content:space-evenly;
 background:skyblue;
@@ -329,12 +329,12 @@ z-index:200;
 /*left:0;*/
 }
 .dropmenu li:hover ul{
-display:block;
+display:flex;
 flex-flow:column wrap;
 justify-content:space-evenly;
 }
 .dropmenu li li {
-display:block;
+display:flex;
 flex-flow:column wrap;
 justify-content:space-evenly;
 background:skyblue;
@@ -344,13 +344,13 @@ padding:0px;
 /*width:270px;*/
 }
 .dropmenu li:hover li a{
-display:block;
+display:flex;
 flex-flow:column wrap;
 justify-content:space-evenly;
 background:none;
 }
 .dropmenu li ul a{
-display:block;
+display:flex;
 flex-flow:column wrap;
 justify-content:space-evenly;
 height:50px;
@@ -361,7 +361,7 @@ padding:0px 0px 0px 10px;
 text-align:left;
 }
 .dropmenu li ul a:hover, .dropmenu li ul li:hover a{
-display:block;
+display:flex;
 flex flow:column wrap;
 justify-content:space-evenly;
 background:rgba(171, 171, 171, .3);
@@ -370,7 +370,7 @@ color:gray;
 text-decoration:none;
 }
 .dropmenu p{
-display:block;
+display:flex;
 flex flow:column wrap;
 justify-content:space-evenly;
 clear:left;
