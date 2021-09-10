@@ -371,7 +371,7 @@ clear:left;
 */
 
 /*navMenubar*/
-.mainmenu{
+.dropmenu{
 display:block;
 left:0;
 right:0;
@@ -616,7 +616,7 @@ clear:left;
 /*socializing.html*/
 /*CKEditor*/
 #editor{
-backgroundColor:ivory;
+backgroundColor:white;
 }
 /*CKEditor Ends*/
 
