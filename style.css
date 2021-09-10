@@ -556,7 +556,7 @@ clear:left;
       margin:0 auto;
       margin-top:1rem;
     }
-  #link{
+  .link{
     color:white;
     font-size:2rem;
     font-weight:bolder;
