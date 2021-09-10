@@ -212,7 +212,6 @@ h2{
   margin:0;
   padding:5px;
   border-bottom:1px solid cornflowerblue;
-  border-bottom-width:100%;
 }
 
 /*test*/
@@ -388,11 +387,13 @@ height:50px;
 list-style:none;
 margin:auto;
 padding:0px;
+width:100%;
 }
 .dropmenu li{
 display:block;
 float:left;
 padding:0px;
+width:100%;
 }
 .dropmenu li a{
 display:block;
@@ -412,6 +413,7 @@ background:rgba(31, 31, 31, .5);
 text-shadow:0px -1px rgba(0, 0, 0, .2);
 color:#FFFFFF;
 text-decoration:none;
+width:100%;
 }
 .dropmenu li ul{
 display:block;
@@ -435,11 +437,12 @@ display:block;
 float:none;
 margin:0px;
 padding:0px;
-/*width:270px;*/
+width:100%;
 }
 .dropmenu li:hover li a{
 display:block;
 background:none;
+width:100%;
 }
 .dropmenu li ul a{
 display:block;
@@ -449,6 +452,7 @@ text-shadow:0px -1px rgba(0, 0, 0, .2);
 margin:0px;
 padding:0px 0px 0px 10px;
 text-align:left;
+width:100%;
 }
 .dropmenu li ul a:hover, .dropmenu li ul li:hover a{
 display:block;
@@ -456,10 +460,12 @@ background:rgba(171, 171, 171, .3);
 border:0px;
 color:gray;
 text-decoration:none;
+width:100%;
 }
 .dropmenu p{
 display:block;
 clear:left;
+width:100%;
 }
 
 /*treePractice*/
