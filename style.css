@@ -373,9 +373,6 @@ clear:left;
 /*navMenubar*/
 #mainmenu{
 display:block;
-position:absolute;
-top:0;
-left:0;
 border:1px;
 margin:1px;
 padding:1px;
