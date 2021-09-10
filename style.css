@@ -373,6 +373,7 @@ clear:left;
 /*navMenubar*/
 #mainmenu{
 display:block;
+position:absolute;
 left:0;
 right:0;
 border:1px;
@@ -616,7 +617,7 @@ clear:left;
 /*socializing.html*/
 /*CKEditor*/
 #editor{
-backgroundColor:ivory;
+backgroundColor:beige;
 }
 /*CKEditor Ends*/
 
