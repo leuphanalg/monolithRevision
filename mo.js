@@ -3,7 +3,7 @@ var c1 = new mojs.Shape({
   radius:{
     20:40
   },
-  stroke:"white",
+  stroke:"ivory",
   strokeWidth:{
     20:0
   },
@@ -13,7 +13,7 @@ var c1 = new mojs.Shape({
   duration:200
 });
 var ripples = [];
-var colors = ["skyblue", "cornflowerblue", "gray", "#b5bfff", "white"];
+var colors = ["skyblue", "cornflowerblue", "gray", "#b5bfff", "ivory"];
 for (var i = 0; i < 4; i++){
   var c2 = new mojs.Shape({
     parent: c1.el,
@@ -54,7 +54,7 @@ const burst = new mojs.Burst({
   children:{
   shape:"circle",
   radius:20,
-  fill:["skyblue", "cornflowerblue", "gray", "#b5bfff", "white"],
+  fill:["skyblue", "cornflowerblue", "gray", "#b5bfff", "ivory"],
   strokeWidth:5,
   duration:2000
   }
