@@ -8,7 +8,6 @@ div{
 }
 }
 .thumbnail{
-  align:left;
   margin:0px;
   width:50px;
   height:50px;
@@ -16,7 +15,6 @@ div{
   background-size:contain;
   background-repeat:no-repeat;
   background-position:center center;
-  background-image:url('monolith-logo.jpg');
 }
 #area{
   position:relative;
@@ -373,7 +371,7 @@ clear:left;
 */
 
 /*navMenubar*/
-.dropmenu{
+.mainmenu{
 display:block;
 left:0;
 right:0;
@@ -618,7 +616,7 @@ clear:left;
 /*socializing.html*/
 /*CKEditor*/
 #editor{
-backgroundColor:white;
+backgroundColor:ivory;
 }
 /*CKEditor Ends*/
 
