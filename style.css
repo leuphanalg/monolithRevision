@@ -239,13 +239,13 @@ ol{
 
 #grid{
   display:grid;
-  grid-template-rows:minmax(auto, <flex>);
+  grid-template-columns:150px 1fr;
 }
 #grid ol{
-  grid-template-columns:minmax(auto, <flex>);
+  padding-left:33px;
 }
 #grid #article{
-  grid-template-columns:minmax(auto, <flex>);
+  padding-left:45px;
 }
 
 /*javaScript*/
@@ -257,7 +257,7 @@ ol{
 
 /*test*/
 #mainmenu {
-  display:grid;
+  display:flex;
   grid-template-columns:minmax(auto, <flex>);
 }
 .dropmenu{
