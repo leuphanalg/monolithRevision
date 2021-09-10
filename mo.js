@@ -2,11 +2,11 @@ const burst = new mojs.Burst({
   radius:   { 0: 100 },
   count:    5,
   children: {
-    shape:        "circle",
-    radius:       20,
-    fill:         [ "skyblue", "cornflowerblue", "gray", "#b5bfff", "white" ],
-    strokeWidth:  5,
-    duration:     2000
+  shape:        "circle",
+  radius:       20,
+  fill:         [ "skyblue", "cornflowerblue", "gray", "#b5bfff", "white" ],
+  strokeWidth:  5,
+  duration:     2000
   }
 });
 
