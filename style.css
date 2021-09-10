@@ -235,8 +235,7 @@ ol{
 }
 #grid #article{
   grid-template-columns:minmax(auto, <flex>);
-}*/
-
+}
 #grid{
   display:grid;
   grid-template-columns:150px 1fr;
@@ -246,7 +245,7 @@ ol{
 }
 #grid #article{
   padding-left:45px;
-}
+}*/
 
 /*javaScript*/
 /*$(function(){
@@ -371,6 +370,7 @@ clear:left;
 }
 */
 
+/*navMenubar*/
 .dropmenu{
 display:block;
 border:none;
@@ -508,6 +508,7 @@ clear:left;
 */
 /*treePractice Ends*/
 
+/*maps.html*/
 /*parallaxScrolling*/
 .container {
       margin:0;
@@ -562,6 +563,7 @@ clear:left;
   }
 /*parallaxScrolling Ends*/
 
+/*activities.html*/
 /*MasonryColumn*/
 .columns {
   /*column-count:4;*/
@@ -607,6 +609,7 @@ clear:left;
 }
 /*masonryColumn Ends*/
 
+/*socializing.html*/
 /*CKEditor*/
 #editor{
 backgroundColor:white;
