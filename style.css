@@ -387,22 +387,23 @@ height:50px;
 list-style:none;
 margin:auto;
 padding:0px;
-width:100%;
+width:auto;
 }
 .dropmenu li{
 display:block;
 float:left;
 padding:0px;
+width:auto;
 }
 .dropmenu li a{
 display:block;
 background:cornflowerblue;
-color:#fff;
+color:#FFFFFF;
 text-shadow:0px -2px rgba(0, 0, 0, .2);
 display:block;
 line-height:50px;
 margin:0px;
-padding:0px 105px 0px 104.5px;
+padding:0px 107px 0px 107px;
 text-align:center;
 text-decoration:none;
 }
