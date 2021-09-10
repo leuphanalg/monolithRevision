@@ -421,7 +421,7 @@ display:none;
 height:auto;
 border:0px;
 position:absolute;
-width:100vw;
+width:inherit;
 z-index:200;
 /*top:1em;
 /*left:0;*/
