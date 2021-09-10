@@ -1,41 +1,85 @@
 <!doctype html>
 <html>
+
   <head>
-    <meta charset="utf-8">
-      <link rel="stylesheet" href="style.css">
-      <link rel="preconnect" href="https://fonts.google.com/">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap">
-        <title id=title>Monolith</title>
+
+    <!-- troubleShoot for Error with Permissions-Policy header
+    : Unrecognized feature: 'interest-cohort'-->
+    <permissions-policy: interest-cohort=()>
+    <chrome_options.add_argument('--log-level=1')>
+    <!-- troubleShootEnds -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QBLYSK1BS6"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-QBLYSK1BS6');
+    </script>
+    Global site tag (gtag.js) - Google Analytics Ends -->
 
     <!-- semanticUI -->
-      <link rel="stylesheet" type="text/css" href="semantic.css">
-        <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-        <script src="semantic.js"></script>
+    <link rel="stylesheet" type="text/css" href="semantic.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"></script>
+    <script src="semantic.js"></script>
     <!-- semanticUI Ends -->
+
+    <!-- responsiveMenu -->
+    <!--<script>
+    $(function(){
+      $(".dropmenu").click(function(){
+        $(".dropmenu").stop().slideToggle("fast");
+      });
+    });
+    </script>-->
+    <!-- responsiveMenu Ends -->
 
     <!-- fontelloIcon -->
     <link rel="stylesheet" href="fontello.css">
     <!-- fontelloIcon Ends -->
+
+    <!-- style.css-->
+    <link rel="preconnect" href="https://fonts.google.com/">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap">
+    <title>Monolith</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <!-- style.css Ends-->
+
   </head>
 
   <body>
+
     <!-- mouseMotion -->
+    <!--script src="https://cdn.jsdelivr.net/npm/@mojs/core"></script-->
     <script src="https://cdn.jsdelivr.net/mojs/latest/mo.min.js"></script>
-    <script src="mo.js"></script>
+    <script src="mousemotion.js"></script>
     <!-- mouseMotion Ends -->
 
     <!-- monolithLogo -->
-    <a class="thumbnail" title="Monolith Logo" href="index.html"
+    <a class="thumbnail" title="Monolith Logo"
+    style="background-image:url('monolith-logo.jpg')"
+    align="left" href="index.html"
     onclick="alert('*⋆.*:･ﾟ☽.:⋆*･ﾟ:.⋆ Warp Home! *⋆.*:･ﾟ☾.:⋆*･ﾟ:.⋆')"></a>
     <!-- monolithLogo Ends -->
 
     <!-- logIn or signUp -->
     <a class="btn cornflowerblue" href="#back-endCoding">Log In</a>
+    <script src=""></script>
     <a class="btn skyblue" href="#back-endCoding">Sign Up</a>
+    <script src=""></script>
+    <!--<input id="logIn" type="button" value="Log In" onclick="logIn(this);">
+    <input id="signUp" type="button" value="Sign Up" onclick="SignUp(this);">-->
+    <!-- logIn or signUp Ends-->
 
     <!-- themeMode -->
     <a input id="darkMode" type="button" class="btn gray"
     href="#gray" value="Night" onclick="darkMode(this);">Night</a>
+    <!--input id="darkMode" type="button" value="Night" onclick="darkMode(this);">-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="colors.js"></script>
     <!-- themeMode Ends -->
