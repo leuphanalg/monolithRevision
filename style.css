@@ -373,10 +373,6 @@ clear:left;
 /*navMenubar*/
 #mainmenu{
 display:block;
-top:0;
-left:0;
-right:0;
-bottom:0;
 border:1px;
 margin:1px;
 padding:1px;
@@ -406,7 +402,7 @@ text-shadow:0px -1px rgba(0, 0, 0, .2);
 display:block;
 line-height:50px;
 margin:0px;
-padding:0px 105px 0px 104.5px;
+padding:0px 105px 0px 105px;
 text-align:center;
 text-decoration:none;
 }
