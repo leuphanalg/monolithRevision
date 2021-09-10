@@ -256,7 +256,7 @@ ol{
 });*/
 
 /*test*/
-/*#mainmenu {
+#mainmenu {
   display:grid;
   grid-template-rows:minmax(auto, <flex>);
 }
