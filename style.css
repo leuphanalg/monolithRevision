@@ -258,7 +258,7 @@ ol{
 /*test*/
 #mainmenu {
   display:grid;
-  grid-template-rows:minmax(auto, <flex>);
+  grid-template-columns:minmax(auto, <flex>);
 }
 .dropmenu{
 display:block;
